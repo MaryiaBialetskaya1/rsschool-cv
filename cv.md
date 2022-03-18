@@ -1,5 +1,5 @@
-Maryia Bialetskaya
-============
+# Maryia Bialetskaya
+
 
                                                       
 1617 Hawthorn Dr Apt 5                                                             
@@ -18,8 +18,8 @@ https://t.me/maryiabialetskaya
 ----------------------
                                                     
 
-Education
----------
+## Education
+
 
 2018-2021 
    **AAB, Programming&Development**; Cuyahoga Community College (Cleveland)
@@ -29,8 +29,7 @@ Education
    **Certificate, HTML5/CSS3**; CanSheCode Inc (Cleveland)
 
 
-Experience
-----------
+## Experience
 
 **Freelance Web Developer**
 
@@ -43,8 +42,7 @@ Eye-popping web-developer with a passion metrics and beating former
 
 * Created a website for a local animal shelter
 
-Technical Experience
---------------------
+## Technical Experience
 
 Programming Languages:
 
@@ -65,8 +63,7 @@ Programming Languages:
   Strong knowledge of **HTML**, **CSS**, **Bootstrap**, **MYSQL** 
 
 
-Extra Section About me
-----------------------------------------
+## About me
 
 * Human Languages:
 
