@@ -1,7 +1,5 @@
 # Maryia Bialetskaya
-
-
-                                                      
+                                                     
 1617 Hawthorn Dr Apt 5                                                             
 MAYFIELD HTS, OH                                                         
 USA 
@@ -22,11 +20,11 @@ https://t.me/maryiabialetskaya
 
 
 2018-2021 
-   **AAB, Programming&Development**; Cuyahoga Community College (Cleveland)
+   **AAB, Programming&Development** - Cuyahoga Community College (Cleveland)
 
 
 2021-2022
-   **Certificate, HTML5/CSS3**; CanSheCode Inc (Cleveland)
+   **Certificate, HTML5/CSS3** - CanSheCode Inc (Cleveland)
 
 
 ## Experience
