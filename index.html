@@ -1,26 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <link rel="stylesheet" href="./style.css"></link>
     <title>rolling-scopes-school</title>
   </head>
   <body>
-    <ul class="navbar">
-      <li><a href="index.html">Home page</a></li>
-      <li><a href="index.html">My things</a></li>
-      <li><a href="index.html">My town</a></li>
-      <li><a href="index.html">Links</a></li>
-    </ul>
-
-    <h1>Welcome to Rolling Scopes School</h1>
-    <p>We here to help you grow and make your future brite!</p>
-
-    <address>
-      Made 19 March 2022<br />
-      by myself.
-    </address>
-  </body>
+    <header>
+      <h1>HTML & CSS Basics Summary</h1>
+      <img src="./html-css.png" alt="HTML & CSS Logos" />
+    </header>
+    <main>
+      <section>
+        <h2>HTML Summary</h2>
+        <p>
+          HTML (HyperText Markup Language) is used to define our page content,
+          structure and meaning. You <span class="highlight">don't</span> use it
+          for styling purposes. Use CSS for that instead!
+        </p>
+        <ul>
+          <li class="extra-important">
+            HTML uses "elements" to describe (annotate) content
+          </li>
+          <li>
+            HTML elements typically have an opening tag, content and then a
+            closing tag
+          </li>
+          <li class="extra-important">
+            You can also have void (empty) elements like images
+          </li>
+          <li class="extra-important">
+            You can also configure elements with attributes
+          </li>
+          <li>
+            There's a long list of available elements but you'll gain experience
+            over time, no worries.
+          </li>
+        </ul>
+        <p>
+          Learn more about all available HTML elements on
+          <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element"
+            >the MDN HTML element reference</a
+          >
+        </p>
+      </section>
+      <section>
+        <h2>CSS Summary</h2>
+        <p>
+          CSS (Cascading Style Sheets) is used for styling your page content.
+        </p>
+        <ul>
+          <li>Styles are assigned via property-value pairs</li>
+          <li>You can assign styles via the "style" attribute</li>
+          <li class="extra-important">
+            To avoid code duplication, you typically use global styles (e.g. via
+            the "style" element) instead
+          </li>
+          <li>
+            Alternatively, you can work with external stylesheet files wich you
+            "link" to
+          </li>
+          <li class="extra-important">
+            When you working with CSS, concepts like "inheritance",
+            "specoficaty" and the "box model" should be understood.
+          </li>
+        </ul>
+        <p>
+          Learn more about all available CSS properties and values on
+          <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference"
+            >the MDN CSS element reference</a
+          >
+        </p>
+      </section>
+    </main>
+    <footer>
+      <a href="pdfs/html-css-basics-summary.pdf" target="_blank">Download PDF Summary</a>
+      <p>(c) Mari Beletskaya</p>
+    </footer>
 </html>
