@@ -29,6 +29,9 @@
   /* padding: 15px 60px; */
   width: 100%;
 }
+.nav{
+  padding: 20px 0 50px 0;
+}
 .nav__list {
   display: flex;
   list-style: none;
@@ -50,6 +53,9 @@
   padding: 12px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
   border-radius: 6px;
+}
+.heading{
+  padding-top: 80px;
 }
 .heading-wrapper{
   display: flex;
@@ -91,20 +97,31 @@
 .main-container{
   width: 70%;
 }
-
+.section-header{
+  padding-bottom: 20px;
+}
+.section-paragraph{
+  padding-bottom: 50px;
+}
+.education__section{
+  padding-bottom: 20px;
+}
 .education__description{
   display: flex;
   flex-direction: row;
   padding-bottom: 20px;
 }
 .education__section_header{
-  margin-bottom: 0;
+  padding-bottom: 5px;
 }
-.education__description_header{
+/* .education__description_header{
   margin: 0;
-}
+} */
 .education__description_years{
-  padding-right: 20px;
+  padding-right: 25px;
+}
+.education__section_list{
+  padding-left: 20px;
 }
 
 
