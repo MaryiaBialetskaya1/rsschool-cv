@@ -1,8 +1,10 @@
-body {
-  font-family: "Quicksand", sans-serif;
+* {
   margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  font-family: "Quicksand", sans-serif;
 }
-.container{
+.page-container{
   position: relative;
   display: flex;
   flex-direction: column;
@@ -14,7 +16,7 @@ body {
   flex-direction: column;
   display: flex;
   justify-content: space-between;
-  padding: 15px 60px;
+  /* padding: 15px 60px; */
   width: 100%;
   box-sizing: border-box;
   /* position: absolute; */
@@ -24,7 +26,7 @@ body {
 .header-nav-wrapper{
   display: flex;
   justify-content: space-between;
-  padding: 15px 60px;
+  /* padding: 15px 60px; */
   width: 100%;
 }
 .nav__list {
@@ -51,9 +53,9 @@ body {
 }
 .heading-wrapper{
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  padding: 15px 60px;
+  /* padding: 15px 60px; */
 }
 .heading__img{
   width: 200px;
@@ -61,7 +63,9 @@ body {
   border-radius: 50%;
   object-fit: cover;
 }
-
+.page-logo{
+  padding-right: 280px;
+}
 .page-logo__link{
   padding: 10px;
   font-family: "Oleo Script", sans-serif;
@@ -76,9 +80,39 @@ body {
   font-size: 28px;
 }
 
+/*MAIN and ASIDE*/
+.main{
+  width: 100%;
+  display: flex;
+}
+.main-asside{
+  width: 30%;
+}
+.main-container{
+  width: 70%;
+}
+
+.education__description{
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+}
+.education__section_header{
+  margin-bottom: 0;
+}
+.education__description_header{
+  margin: 0;
+}
+.education__description_years{
+  padding-right: 20px;
+}
+
+
+
+
 @media screen and (max-width: 1000px){ 
 
-  .container {
+  .page-container {
     width: 100%;
   }
   
