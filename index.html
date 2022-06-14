@@ -23,13 +23,13 @@
               <a class="nav__link" href="#profile">Profile</a>
             </li>
             <li class="nav__item">
+              <a class="nav__link" href="#contact">Contact Me</a>
+            </li>
+            <li class="nav__item">
               <a class="nav__link" href="#work-experience">Work Experience</a>
             </li>
             <li class="nav__item">
               <a class="nav__link" href="#education">Education</a>
-            </li>
-            <li class="nav__item">
-              <a class="nav__link" href="#contact">Contact Me</a>
             </li>
           </ul>
         </nav>
@@ -53,21 +53,21 @@
 
       <aside class="main-asside">
 
-        <section id="contact" class="contact">
+        <section id="contact" class="section contact">
           <h2 class="section-header">Contact Info</h2>
           <div class="contact-body">
 
             <div class="contact-body__name contact-section">
               <div class="contact-body__wrap">
                 <img class="favicon" src="./images/favicons/woman.png" alt="">
-                <h4>Maryia Bialetskaya</h4>
+                <h4 class="contact-body__header">Maryia Bialetskaya</h4>
               </div>
             </div>
 
             <div class="contact-body__birthdate contact-section"> 
               <div class="contact-body__wrap"> 
                 <img class="favicon" src="./images/favicons/calendar.png" alt="">           
-                <h4>August 11, 1994</h4> 
+                <h4 class="contact-body__header">August 11, 1994</h4> 
               </div>            
             </div>
 
@@ -120,7 +120,7 @@
             <div class="contact-body__address contact-section">
               <div class="contact-body__wrap">
                 <img class="favicon" src="./images/favicons/home-address.png" alt="">
-                <address>
+                <address class="contact-body__header">
                   1617 Hawthorn Dr<br>
                   44124, Cleveland<br>
                   USA
@@ -128,27 +128,11 @@
               </div>
             </div>
 
-            <div class="contact-body__form contact-section">
-                <form>
-                  <div>
-                    <span id="name">Name:</span>
-                    <input type="text" class="form-control" name="name" placeholder="Your name here" aria-label="Your name" aria-describedby="name">
-                  </div>
-                  <div>
-                    <span class="input-group-text" id="email">Email:</span>
-                    <input type="email" class="form-control" name="email" placeholder="Your email here" aria-label="Your email" aria-describedby="email">
-                  </div>
-                  <div>
-                    <textarea class="form-control" name="message" placeholder="Your message here" aria-label="Your message" rows="3"></textarea>                      
-                  </div>
-                  <button type="submit" class="btn">Send message</button>
-                </form>
-            </div>
-          </div>
-          
+            
+        </div>
         </section>
 
-        <section>
+        <section class="section skills">
           <h2 class="section-header">Coding Skills</h2>
 
           <ul class="codding codding-languages__list">
@@ -235,7 +219,7 @@
         </section>
 
         
-        <section>
+        <section class="section education-section__aside">
           <h2 class="section-header">Certifications</h2>
         
           <div class="education__section">
@@ -326,6 +310,29 @@
 
         </section>
 
+        <section class="section english-level">          
+          <h2 class="section-header">English level</h2>
+          <p class="section-paragraph">
+            Estimated - B1             
+          </p>
+      </section>
+
+      <section class="section code-example">          
+        <h2 class="section-header">Code Example</h2>
+        <div>
+          <pre>
+            <code class="code-example_part">
+              const num = prompt('Enter a number: ');
+              console.log(`The factors of ${num} is:`);
+              for(let i = 1; i = num; i++) {
+                if(num % i == 0) {
+                  console.log(i);
+                }
+              }
+            </code>
+          </pre>
+        </div>
+      </section>
       </aside>
 
 
@@ -470,44 +477,57 @@
             <hr>
         </section>
 
-        <section class="section profile">          
-          <h2 class="section-header">English level</h2>
+        <section class="form-to-contact section">
+          
+          <div class="contact-body__form contact-section">
+            <h2 class="section-header">Send me a message</h2>
+            <div class="container-contact100">
+              <div class="wrap-contact100">
+                <form class="contact100-form validate-form">
+                  <!-- <span class="contact100-form-title">
+                    Send me a message
+                  </span> -->
+                  <div class="wrap-input validate-input" data-validate="Please enter your name">
+                    <input class="input" type="text" name="name" placeholder="Full Name">
+                    <span class="focus-input"></span>
+                  </div>
+                  <div class="wrap-input validate-input" data-validate="Please enter your email: e@a.x">
+                    <input class="input" type="text" name="email" placeholder="E-mail">
+                    <span class="focus-input"></span>
+                  </div>
+                  <div class="wrap-input validate-input" data-validate="Please enter your phone">
+                    <input class="input" type="text" name="phone" placeholder="Phone">
+                    <span class="focus-input"></span>
+                  </div>
+                  <div class="wrap-input validate-input" data-validate="Please enter your message">
+                    <textarea class="input" name="message"></textarea>
+                    <span class="focus-input"></span>
+                  </div>
+                  <div class="container-contact-form-btn">
+                  <button class="contact-form-btn">
+                  <span>
+                    Send
+                  </span>
+                  </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+            
+          </div>
+        </section>
 
-          <p class="section-paragraph">
-            Estimated - A1             
-          </p>
-        <hr>
-      </section>
-
-      <section class="section profile">          
-        <h2 class="section-header">Code Example</h2>
-
-        <div>
-          <pre>
-            <code>
-              const num = prompt('Enter a positive number: ');
-              console.log(`The factors of ${num} is:`);
-              for(let i = 1; i = num; i++) {
-                if(num % i == 0) {
-                  console.log(i);
-                }
-              }
-            </code>
-          </pre>
-        </div>
-      </section>
-    </div>
-     
+    </div>    
     </main>
 
     <footer>
 
-      <div class="footer-content">
+      <div class="section footer-content">
 
         <div>
           <div class="contact-body__wrap">
-            <img class="favicon" src="./images/favicons/github.png" alt="">
-            <a class="contact-body__link" href="https://github.com/MaryiaBialetskaya1" target="_blank">GitHub</a>
+            <img class="favicon footer-favicon" src="./images/favicons/github.png" alt="">
+            <a class="footer-content__link" href="https://github.com/MaryiaBialetskaya1" target="_blank">GitHub</a>
           </div>
         </div>
   
@@ -519,10 +539,12 @@
   
         <div class="footer-content__year">
           <div>
-            <h5>2022</h5>
+            <h5 class="education__description_header footter-year">2022</h5>
           </div>
           <div>
-            <p>(c)Mari Bialetskaya</p>
+            <p>
+              <a class="footer-content__link" href="#">(c)Mari Bialetskaya</a>
+            </p>
           </div>          
         </div>
 

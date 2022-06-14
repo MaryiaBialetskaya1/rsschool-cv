@@ -4,6 +4,9 @@
   scroll-behavior: smooth;
   font-family: "Quicksand", sans-serif;
 }
+body{
+  background-color: #f7f7f7;
+}
 .page-container{
   position: relative;
   display: flex;
@@ -23,9 +26,11 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  /* background-color: #f3eff9; */
+  background-color:#827ffe;
 }
 .nav{
-  padding: 20px 0 50px 0;
+  padding: 20px 0 10px 0;
 }
 .nav__list {
   display: flex;
@@ -39,11 +44,12 @@
   padding: 12px;
 }
 .nav__item :hover {
-  color: rgb(77, 77, 77);
-  background-color: rgb(255, 251, 0);
+  color: #f2f2f2;
+  background-color: #827ffe;
+  transition: all 0.4s ease;
 }
 .nav__link{
-  color: rgb(16, 16, 10);
+  color: #343434;
   text-decoration: none;
   padding: 12px;
   text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
@@ -56,6 +62,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: #efefef;
+  padding: 10px;
 }
 .heading__img{
   width: 200px;
@@ -69,7 +77,7 @@
 .page-logo__link{
   padding: 10px;
   font-family: "Oleo Script", sans-serif;
-  color: rgb(16, 16, 10);
+  color: #343434;
   font-size: 30px;
   text-decoration: none;
   text-transform: uppercase;
@@ -87,15 +95,23 @@
 }
 .main-asside{
   width: 30%;
+  background-color: #f2f2f2;
 }
 .main-container{
   width: 70%;
+  background-color: #f2f2f2;
 }
+
 .section-header{
   padding-bottom: 20px;
+  color: #444389;
+  /* color: #403866; */
 }
 .section-paragraph{
   padding-bottom: 50px;
+}
+.education-section__aside{
+  width: 95%;
 }
 .education__section{
   padding-bottom: 20px;
@@ -107,18 +123,29 @@
 }
 .education__section_header{
   padding-bottom: 5px;
+  color: #343434;
 }
-/* .education__description_header{
-  margin: 0;
-} */
+.education__description_header{
+  color: rgb(77, 77, 77);
+}
 .education__description_years{
-  padding-right: 25px;
+  padding-right: 15px;
 }
 .education__section_list{
   padding-left: 20px;
 }
+.section{
+  padding: 10px;
+}
+.code-example_part{
+  width: 50%;
+  font-size: 12px;
+}
 .contact-body__wrap{
   display: flex;
+}
+.contact-body__header{
+  color: #343434;
 }
 .contact-body__list{
   list-style: none;
@@ -139,6 +166,163 @@
   width: 25px;
   height: 25px;
   padding-right: 2px;
+}
+
+/*FORM*/
+input {
+	outline: none;
+	border: none;
+}
+input[type="number"] {
+  appearance: none;
+  -webkit-appearance: none;
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+textarea {
+  outline: none;
+  border: none;
+}
+textarea:focus, input:focus {
+  border-color: transparent !important;
+}
+input::-webkit-input-placeholder { 
+  color: #bdbdd3;
+}
+
+textarea::-webkit-input-placeholder { 
+  color: #bdbdd3;
+}
+
+button {
+	outline: none !important;
+	border: none;
+	background: transparent;
+}
+
+button:hover {
+	cursor: pointer;
+}
+.container-contact {
+  width: 100%;  
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: #f2f2f2;
+}
+.wrap-contact {
+  width: 100%;
+  background: transparent;
+}
+.contact100-form {
+  width: 100%;
+}
+.contact-form-title {
+  display: block;
+  font-size: 16px;
+  color: #403866;
+  line-height: 1.2;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.wrap-input {
+  width: 100%;
+  background-color: #fff;
+  border-radius: 31px;
+  margin-bottom: 16px;
+  position: relative;
+  z-index: 1;
+}
+
+.input {
+  position: relative;
+  display: block;
+  width: 70%;
+  background: #fff;
+  border-radius: 31px;
+  font-size: 12px;
+  color: #8f8fa1;
+  line-height: 1.2;
+}
+input.input {
+  height: 30px;
+}
+textarea.input {
+  min-height: 80px;
+}
+.focus-input {
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-radius: 31px;
+  background-color: #fff;
+  pointer-events: none;  
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.input:focus + .focus-input {
+  width: calc(100% + 30px);
+}
+
+.container-contact-form-btn {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 5px;
+}
+
+.contact-form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px;
+  min-width: 150px;
+  height: 40px;
+  background-color: transparent;
+  border-radius: 31px;
+  font-size: 14px;
+  color: #fff;
+  line-height: 1.2;
+  text-transform: uppercase;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  position: relative;
+  z-index: 1;
+}
+
+.contact-form-btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
+  border-radius: 31px;
+  background-color: #827ffe;
+  pointer-events: none;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.contact-form-btn:hover:before {
+  background-color: #403866;
+  width: calc(100% + 10px);
 }
 
 /*codding Scills*/
@@ -210,17 +394,28 @@
 /*footer*/
 footer {
   padding: 50px 0px;
+  background-color: #827ffe;
 }
 .footer-content{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
-
+.footer-favicon{
+  width: 30px;
+  height: 30px;
+}
 .footer-content__img{
   width: 100px;
 }
-
+.footer-content__link{
+  text-decoration: none;
+  color: #f2f2f2;
+  font-size: 24px;
+}
+.footter-year{
+  color: #f2f2f2;
+}
 .footer-content__year{
   display: flex;
   flex-direction: column;
@@ -232,19 +427,17 @@ footer {
 
   .page-container {
     width: 90%;
-  }
-  
+  }  
   .main-asside{
     width: 40%;
   }
-
   .main-container{
     width: 60%;
   }
-
   .page-logo{
     padding-right: 0px;
   }
+
 }
 
 
@@ -252,35 +445,27 @@ footer {
   
   .main{
     display: flex;
-    flex-direction: column;
-    width: 90%;
+    flex-direction: column-reverse;
+    width: 100%;
   }
-
   .main-asside{
-    width: 90%;
+    width: 100%;
     justify-content: center;
   }
-
   .main-container{
     width: 100%;
   }
-
   footer{
-    width: 90%;
+    width: 100%;
   }
-
-}
-
-@media screen and (max-width: 767px) {
-
   .nav{
     padding-bottom: 20px;
   }
   .nav__item {
     text-decoration: none;
-    font-size: 16px;
+    font-size: 18px;
     padding: 8px;
-}
+  }
   .heading{
     padding: 10px;
   }
@@ -299,5 +484,14 @@ footer {
 
 }
 
+@media screen and (max-width: 600px) {
 
+  .nav__item {
+    font-size: 12px;
+    padding: 6px;
+  }
+  .nav__link{
+    padding: 4px;
+  }
 
+}
