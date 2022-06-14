@@ -16,17 +16,12 @@
   flex-direction: column;
   display: flex;
   justify-content: space-between;
-  /* padding: 15px 60px; */
   width: 100%;
   box-sizing: border-box;
-  /* position: absolute; */
-   /* align-items: center; */
-
 }
 .header-nav-wrapper{
   display: flex;
   justify-content: space-between;
-  /* padding: 15px 60px; */
   width: 100%;
 }
 .nav{
@@ -61,7 +56,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* padding: 15px 60px; */
 }
 .heading__img{
   width: 200px;
@@ -123,33 +117,187 @@
 .education__section_list{
   padding-left: 20px;
 }
+.contact-body__wrap{
+  display: flex;
+}
+.contact-body__list{
+  list-style: none;
+}
+.contact-body__link{
+  text-decoration: none;
+  color: rgb(77, 77, 77);
+}
+.contact-section{
+  padding-bottom: 10px;
+}
+.favicon{
+  width: 15px;
+  height: 15px;
+  padding-right: 8px;
+}
+.comment{
+  width: 25px;
+  height: 25px;
+  padding-right: 2px;
+}
 
+/*codding Scills*/
+.codding > li {
+  margin: 15px 0;
+  list-style: none;
+  font-size: 18px;
+  line-height: 24px;
+}
+.codding__length {
+  width: 100%;
+  height: 10px;
+  margin-top: 5px;
+  background-color: #ffffff3b;
+}
+
+.codding__length span {
+  display: block;
+  height: 100%;
+}
+
+.html5{
+  width: 90%;
+}
+.css{
+  width: 90%;
+}
+.sass{
+  width: 80%;
+}
+.less{
+  width: 60%;
+}
+.javaScript{
+  width: 50%;
+}
+.bootstrap{
+  width: 90%;
+}
+.react{
+  width: 20%;
+}
+.webpack{
+  width: 50%;
+}
+.npm{
+  width: 50%;
+}
+.figma{
+  width: 40%;
+}
+.wordPress{
+  width: 30%;
+}
+.codding__background {
+  background-color: rgb(100,100,92);
+  animation: background-persentege 3s ease;
+}
+
+@keyframes background-persentege {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+/*footer*/
+footer {
+  padding: 50px 0px;
+}
+.footer-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-content__img{
+  width: 100px;
+}
+
+.footer-content__year{
+  display: flex;
+  flex-direction: column;
+}
 
 
 
 @media screen and (max-width: 1000px){ 
 
   .page-container {
-    width: 100%;
+    width: 90%;
   }
   
+  .main-asside{
+    width: 40%;
+  }
+
+  .main-container{
+    width: 60%;
+  }
+
+  .page-logo{
+    padding-right: 0px;
+  }
 }
 
 
-/* footer {
-  background: linear-gradient(70deg, rgb(24, 24, 24), rgb(25, 29, 29));
-  padding: 36px 0px;
+@media screen and (max-width: 767px) {
+  
+  .main{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .main-asside{
+    width: 90%;
+    justify-content: center;
+  }
+
+  .main-container{
+    width: 100%;
+  }
+
+  footer{
+    width: 90%;
+  }
+
 }
-footer ul {
-  display: flex;
-  justify-content: center;
+
+@media screen and (max-width: 767px) {
+
+  .nav{
+    padding-bottom: 20px;
+  }
+  .nav__item {
+    text-decoration: none;
+    font-size: 16px;
+    padding: 8px;
 }
-footer li {
-  width: 80px;
-  height: 80px;
-  margin: 0px 50px;
+  .heading{
+    padding: 10px;
+  }
+  .heading-wrapper{
+    flex-direction: column;
+  }
+  .page-logo{
+    margin-bottom: 20px;
+  }
+  .section-header{
+    text-align: center;
+  }
+  .education__description_years{
+    padding-right: 10px;
+  }
+
 }
-footer img {
-  width: 100%;
-  height: 100%;
-} */
+
+
+
