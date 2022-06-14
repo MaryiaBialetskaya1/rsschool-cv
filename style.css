@@ -26,7 +26,6 @@ body{
   display: flex;
   justify-content: space-between;
   width: 100%;
-  /* background-color: #f3eff9; */
   background-color:#827ffe;
 }
 .nav{
@@ -179,9 +178,8 @@ input[type="number"] {
 }
 input[type="number"]::-webkit-outer-spin-button,
 input[type="number"]::-webkit-inner-spin-button {
-    -webkit-appearance: none;
+  -webkit-appearance: none;
 }
-
 textarea {
   outline: none;
   border: none;
@@ -192,17 +190,14 @@ textarea:focus, input:focus {
 input::-webkit-input-placeholder { 
   color: #bdbdd3;
 }
-
 textarea::-webkit-input-placeholder { 
   color: #bdbdd3;
 }
-
 button {
 	outline: none !important;
 	border: none;
 	background: transparent;
 }
-
 button:hover {
 	cursor: pointer;
 }
@@ -238,7 +233,6 @@ button:hover {
   position: relative;
   z-index: 1;
 }
-
 .input {
   position: relative;
   display: block;
@@ -271,18 +265,15 @@ textarea.input {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-
 .input:focus + .focus-input {
   width: calc(100% + 30px);
 }
-
 .container-contact-form-btn {
   display: -webkit-box;
   display: flex;
   flex-wrap: wrap;
   padding-top: 5px;
 }
-
 .contact-form-btn {
   display: flex;
   justify-content: center;
@@ -301,7 +292,6 @@ textarea.input {
   position: relative;
   z-index: 1;
 }
-
 .contact-form-btn::before {
   content: "";
   display: block;
@@ -319,11 +309,11 @@ textarea.input {
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
-
 .contact-form-btn:hover:before {
   background-color: #403866;
   width: calc(100% + 10px);
 }
+
 
 /*codding Scills*/
 .codding > li {
@@ -338,12 +328,10 @@ textarea.input {
   margin-top: 5px;
   background-color: #ffffff3b;
 }
-
 .codding__length span {
   display: block;
   height: 100%;
 }
-
 .html5{
   width: 90%;
 }
