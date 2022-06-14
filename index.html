@@ -1,8 +1,503 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Document</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV - Maryia Bialetskaya</title>
+  <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Oleo+Script:wght@700&family=Quicksand:wght@300;500;700&display=swap"
+      rel="stylesheet"
+    />
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <h1>Hello</h1>
+  <div class="page-container">
+    
+    <header class="header">
+      <div class="header-nav-wrapper">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a class="nav__link" href="#profile">Profile</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#contact">Contact Me</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#work-experience">Work Experience</a>
+            </li>
+            <li class="nav__item">
+              <a class="nav__link" href="#education">Education</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="heading-wrapper">
+        <div class="heading">
+          <img class="heading__img" src="./images/photos/mary.jpeg" alt="Profile Photo">
+        </div>
+        <div>
+          <div class="page-logo">
+            <a class="page-logo__link" href="/index.html" target="_blank">Maryia Bialetskaya</a>
+            <h1 class="page-logo__header">Front-End Software Developer</h1>
+          </div>
+        </div>        
+      </div> 
+    </header>
+
+    <main class="main">
+      <aside class="main-asside">
+        <section id="contact" class="section contact">
+          <h2 class="section-header">Contact Info</h2>
+          <div class="contact-body">
+
+            <div class="contact-body__name contact-section">
+              <div class="contact-body__wrap">
+                <img class="favicon" src="./images/favicons/woman.png" alt="">
+                <h4 class="contact-body__header">Maryia Bialetskaya</h4>
+              </div>
+            </div>
+
+            <div class="contact-body__birthdate contact-section"> 
+              <div class="contact-body__wrap"> 
+                <img class="favicon" src="./images/favicons/calendar.png" alt="">           
+                <h4 class="contact-body__header">August 11, 1994</h4> 
+              </div>            
+            </div>
+
+            <div class="contact-body__conacts contact-section">
+              <ul class="contact-body__list">
+                <li class="contact-body__item"> 
+                  <div class="contact-body__wrap">
+                    <img class="favicon" src="./images/favicons/phone.png" alt="">                 
+                    <a class="contact-body__link" href="tel:+13307982951" target="_blank">(330)-798-2951</a>
+                  </div>
+                </li>
+                  <li class="contact-body__item">
+                    <div class="contact-body__wrap">
+                      <img class="favicon" src="./images/favicons/skype.png" alt="">
+                      <a class="contact-body__link" href="https://join.skype.com/invite/kmVVaT2NHAba" target="_blank">Skype</a>
+                    </div>
+                  </li>               
+              </ul>
+            </div>
+
+            <div class="contact-body__conacts contact-section">
+              <ul class="contact-body__list">
+                <li class="contact-body__item">
+                  <div class="contact-body__wrap">
+                    <img class="favicon" src="./images/favicons/email.png" alt="">
+                    <a class="contact-body__link" href="mailto:maryiabeletskaya@gmail.com" target="_blank">maryiabeletskaya@gmail.com</a>
+                  </div>
+                </li>
+                <li class="contact-body__item">
+                  <div class="contact-body__wrap">
+                    <img class="favicon" src="./images/favicons/linkedin.png" alt="">
+                    <a class="contact-body__link" href="https://www.linkedin.com/in/maryia-bialetskaya-675036201/" target="_blank">LinkedIn</a>
+                  </div>  
+                </li>
+                <li class="contact-body__item">
+                  <div class="contact-body__wrap">
+                    <img class="favicon" src="./images/favicons/github.png" alt="">
+                    <a class="contact-body__link" href="https://github.com/MaryiaBialetskaya1" target="_blank">GitHub</a>
+                  </div>  
+                </li>
+              </ul>
+            </div>
+
+            <div class="contact-body__address contact-section">
+              <div class="contact-body__wrap">
+                <img class="favicon" src="./images/favicons/home-address.png" alt="">
+                <address class="contact-body__header">
+                  1617 Hawthorn Dr<br>
+                  44124, Cleveland<br>
+                  USA
+                </address>
+              </div>
+            </div>           
+        </div>
+        </section>
+
+        <section class="section skills">
+          <h2 class="section-header">Coding Skills</h2>
+          <ul class="codding codding-languages__list">
+						<li>
+							HTML5
+							<div class="codding__length">
+								<span class="html5"><span class="codding__background"></span></span>
+							</div>
+						</li>
+						<li>
+							CSS3
+							<div class="codding__length">
+								<span class="css"><span class="codding__background"></span></span>
+							</div>
+						</li>
+						<li>
+							Sass
+							<div class="codding__length">
+								<span class="sass"><span class="codding__background"></span></span>
+							</div>
+						</li>
+						<li>
+							Less
+							<div class="codding__length">
+								<span class="less"><span class="codding__background"></span></span>
+							</div>
+						</li>
+            <li>
+							Bootstrap
+							<div class="codding__length">
+								<span class="bootstrap"><span class="codding__background"></span></span>
+							</div>
+						</li>
+						<li>
+							JavaScript
+							<div class="codding__length">
+								<span class="javaScript"><span class="codding__background"></span></span>
+							</div>
+						</li>
+            <li>
+							React
+							<div class="codding__length">
+								<span class="react"><span class="codding__background"></span></span>
+							</div>
+						</li>
+            <li>
+							Webpack
+							<div class="codding__length">
+								<span class="webpack"><span class="codding__background"></span></span>
+							</div>
+						</li>
+            <li>
+							NPM
+							<div class="codding__length">
+								<span class="npm"><span class="codding__background"></span></span>
+							</div>
+						</li>
+            <li>
+							Figma
+							<div class="codding__length">
+								<span class="figma"><span class="codding__background"></span></span>
+							</div>
+						</li>
+            <li>
+							WordPress
+							<div class="codding__length">
+								<span class="wordPress"><span class="codding__background"></span></span>
+							</div>
+						</li>            
+					</ul>         
+        </section>
+        
+        <section class="section education-section__aside">
+          <h2 class="section-header">Certifications</h2>       
+          <div class="education__section">
+            <h4 class="education__section_header">Cuyahoga Community College</h4>
+            <div class="education__description">              
+              <div class="education__description_years">
+                <h5 class="education__description_header">2021 - 2022</h5>
+              </div>
+              <div class="education__description_university">
+                <h5 class="education__description_header">Post-Degree Professional Certificate in .NET Programming</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="education__section">
+            <h4 class="education__section_header">Cuyahoga Community College</h4>
+            <div class="education__description">              
+              <div class="education__description_years">
+                <h5 class="education__description_header">2020 - 2021</h5>
+              </div>
+              <div class="education__description_university">
+                <h5 class="education__description_header">Post-Degree Professional Certificate in Information technology - Programming and Development</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="education__section">
+            <h4 class="education__section_header">Cuyahoga Community College</h4>
+            <div class="education__description">              
+              <div class="education__description_years">
+                <h5 class="education__description_header">2020 - 2021</h5>
+              </div>
+              <div class="education__description_university">
+                <h5 class="education__description_header">Short Term Certificate in Web Application Development</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="education__section">
+            <h4 class="education__section_header">CanSheCode</h4>
+            <div class="education__description">              
+              <div class="education__description_years">
+                <h5 class="education__description_header">2021 - 2022</h5>
+              </div>
+              <div class="education__description_university">
+                <h5 class="education__description_header">HTML5 / CSS3 </h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="education__section">
+            <h4 class="education__section_header">CanSheCode</h4>
+            <div class="education__description">              
+              <div class="education__description_years">
+                <h5 class="education__description_header">2022 - current</h5>
+              </div>
+              <div class="education__description_university">
+                <h5 class="education__description_header">JavaScript</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="education__section">
+            <h4 class="education__section_header">Udemy</h4>
+            <div class="education__description">              
+              <div class="education__description_years">
+                <h5 class="education__description_header">2021 - 2022</h5>
+              </div>
+              <div class="education__description_university">
+                <h5 class="education__description_header">100 Days Of Code - 2022 Web Development Bootcamp</h5>
+              </div>
+            </div>
+          </div>
+
+          <div class="education__section">
+            <h4 class="education__section_header">Udemy</h4>
+            <div class="education__description">              
+              <div class="education__description_years">
+                <h5 class="education__description_header">2020 - 2022</h5>
+              </div>
+              <div class="education__description_university">
+                <h5 class="education__description_header">The Complete JavaScript Course 2022: From Zero to Expert!
+                </h5>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section english-level">          
+          <h2 class="section-header">English level</h2>
+          <p class="section-paragraph">
+            Estimated - B1             
+          </p>
+        </section>
+
+        <section class="section code-example">          
+          <h2 class="section-header">Code Example</h2>
+          <div>
+            <pre>
+              <code class="code-example_part">
+                const num = prompt('Enter a number: ');
+                console.log(`The factors of ${num} is:`);
+                for(let i = 1; i = num; i++) {
+                  if(num % i == 0) {
+                    console.log(i);
+                  }
+                }
+              </code>
+            </pre>
+          </div>
+        </section>
+      </aside>
+
+      <div class="main-container">
+
+        <section id="profile" class="section profile">          
+            <h2 class="section-header">Profile</h2>
+            <p class="section-paragraph">Dynamic and creative software developer seeking to utilize coding skills in a professional environment to create clean, responsive websites and apps, and meet organizational goals.
+            <br>
+            Highly competent professional who can be trusted with even the most confident projects. Excel in turning disorganized environments into smooth-running operations and overhauling administrative processes to improve accuracy and efficiency. Self-starter and quick learner who always exceeds expectations. Demonstrated success in working with new products in production, improving productivity, and working with high volumes of products. Safety-conscious with strong attention to detail.              
+            </p>
+          <hr>
+        </section>
+
+        <section id="work-experience" class="section work-experience">
+          <h2 class="section-header">Work Experience</h2>
+          <div class="education__section">
+            <h4 class="education__section_header">Front-End Developer</h4> 
+            <div class="education__description">
+              <div class="education__description_years">
+                <h5 class="education__description_header">2020 - current</h5>
+              </div>
+              <div class="education__description_university">
+                <h5 class="education__description_header">Freelance Front-End developer with good knowledge of front-end technologies, have a decent amount of experience in developing web applications.</h5>
+              </div>            
+            </div> 
+            <div>
+              <ul class="education__section_list">
+                <li>Love solving problems and bringing ideas to life with excellent design & coding skills.</li>
+                <li>Good communicator, a great team player, and have a fair experience of working with a small business. </li>
+                <li>Take the time to deeply understand my clients' requirements and always deliver projects on time.</li>
+                <li>Strive to provide a fair price, high quality, and industry-grade web applications with best practices and state of the art technologies.</li>
+              </ul> 
+            </div>            
+          </div>
+          <div class="education__section">
+            <h4 class="education__section_header">Amazon Fulfillment Center Associate</h4> 
+            <div class="education__description">
+              <div class="education__description_years">
+                <h5 class="education__description_header">2018 - current</h5>
+              </div>
+              <div class="education__description_university">
+                <h5 class="education__description_header">Merchandise, make-on-demand, customer returns, and general fulfillment duties.</h5>
+              </div>            
+            </div> 
+            <div>
+              <ul class="education__section_list">
+                <li>Receive and put away inventory.</li>
+                <li>Troubleshoot problems.</li>
+                <li>Use scanners to read bar codes on products.</li>
+                <li>Ensure product meets quality requirements.</li>
+              </ul> 
+            </div>            
+          </div>
+          <div class="education__section">
+            <h4 class="education__section_header">Assistant Hotel Manager</h4> 
+            <div class="education__description">
+              <div class="education__description_years">
+                <h5 class="education__description_header">2015 - 2018</h5>
+              </div>
+              <div class="education__description_university">
+                <h5 class="education__description_header">Assist in managing the hotel to ensure an efficient and profitable operation</h5>
+              </div>            
+            </div> 
+            <div>
+              <ul class="education__section_list">
+                <li>Direct, train and mentor department managers and supervisors to ensure adherence to hotel policies and established operating procedures.</li>
+                <li>Assign associates their work assignments and inspect work for conformance to prescribed standards of cleanliness ensuring corrections are made.</li>
+                <li>Oversee hotel operations in all aspects of housekeeping, laundry and applicable food/beverage functions.</li>
+                <li>Ensure effective departmental communication through logs, daily standup meetings and monthly department meetings.</li>
+                <li>Attend/Lead staff meetings to discuss company policies and guest complaints, and to make recommendations to improve service and ensure more efficient operation.</li>
+              </ul> 
+            </div>            
+          </div>
+          <div class="education__section">
+            <h4 class="education__section_header">Insurance agent</h4> 
+            <div class="education__description">
+              <div class="education__description_years">
+                <h5 class="education__description_header">2013 - 2015</h5>
+              </div>
+              <div class="education__description_university">
+                <h5 class="education__description_header">Assist clients in selecting insurance policies that best meets their needs</h5>
+              </div>            
+            </div> 
+            <div>
+              <ul class="education__section_list">
+                <li>Promote the insurance agency to customers who need insurance.</li>
+                <li>Network with potential customers.</li>
+                <li>Educate customers on each type of insurance coverage and make recommendations based on their needs.
+                </li>
+                <li>Evaluate current insurance policies and recommend additional coverage when needed.</li>
+                <li>Maintain all insurance documents in a confidential way.</li>
+              </ul> 
+            </div>            
+          </div>
+          <hr>
+        </section>
+
+        <section id="education" class="section education">
+          <h2 class="section-header">Education</h2>
+            <div class="education__section">
+              <h4 class="education__section_header">Cuyahoga Community College</h4>
+              <div class="education__description">              
+                <div class="education__description_years">
+                  <h5 class="education__description_header">2019 - 2021</h5>
+                </div>
+                <div class="education__description_university">
+                  <h5 class="education__description_header">Associate Degree of Applied Business</h5>
+                </div>
+              </div>
+            </div>
+            <div class="education__section">
+              <h4 class="education__section_header">Brest State College of Communication</h4>            
+              <div class="education__description">
+                <div class="education__description_years">
+                  <h5 class="education__description_header">2012 - 2014</h5>
+                </div>
+                <div class="education__description_university">
+                  <h5 class="education__description_header">Associate Degree of Insurance business</h5>
+                </div>
+              </div>
+            </div>
+            <div class="education__section">
+              <h4 class="education__section_header">Brest State College of Communication</h4> 
+              <div class="education__description">
+                <div class="education__description_years">
+                  <h5 class="education__description_header">2009 - 2012</h5>
+                </div>
+                <div class="education__description_university">
+                  <h5 class="education__description_header">Associate Degree of Communication, Document management</h5>
+                </div>
+              </div>
+            </div>
+            <hr>
+        </section>
+
+        <section class="form-to-contact section">         
+          <div class="contact-body__form contact-section">
+            <h2 class="section-header">Send me a message</h2>
+            <div class="container-contact100">
+              <div class="wrap-contact100">
+                <form class="contact100-form validate-form">
+                  <div class="wrap-input validate-input" data-validate="Please enter your name">
+                    <input class="input" type="text" name="name" placeholder="Full Name">
+                    <span class="focus-input"></span>
+                  </div>
+                  <div class="wrap-input validate-input" data-validate="Please enter your email: e@a.x">
+                    <input class="input" type="text" name="email" placeholder="E-mail">
+                    <span class="focus-input"></span>
+                  </div>
+                  <div class="wrap-input validate-input" data-validate="Please enter your phone">
+                    <input class="input" type="text" name="phone" placeholder="Phone">
+                    <span class="focus-input"></span>
+                  </div>
+                  <div class="wrap-input validate-input" data-validate="Please enter your message">
+                    <textarea class="input" name="message"></textarea>
+                    <span class="focus-input"></span>
+                  </div>
+                  <div class="container-contact-form-btn">
+                    <button class="contact-form-btn">
+                      <span>Send</span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>           
+          </div>
+        </section>
+      </div>    
+    </main>
+
+    <footer>
+      <div class="section footer-content">
+        <div>
+          <div class="contact-body__wrap">
+            <img class="favicon footer-favicon" src="./images/favicons/github.png" alt="">
+            <a class="footer-content__link" href="https://github.com/MaryiaBialetskaya1" target="_blank">GitHub</a>
+          </div>
+        </div> 
+        <div class="footer-content__link">
+          <a href="https://rs.school/js/" target="_blank" >
+            <img class="footer-content__img" src="./images/svg/rs_school_js.svg" alt="Link to RSSchool Course" />
+          </a>
+        </div> 
+        <div class="footer-content__year">
+          <div>
+            <h5 class="education__description_header footter-year">2022</h5>
+          </div>
+          <div>
+            <p>
+              <a class="footer-content__link" href="#">(c)Mari Bialetskaya</a>
+            </p>
+          </div>          
+        </div>
+      </div>        
+    </footer>
+  </div>
 </body>
 </html>
