@@ -47,3 +47,27 @@ Programming Languages:
   **Java:** Java Developer with 2+ years of experience in designing,
     developing and delivering user-centric software applications using
     Java/ J2EE technologies.
+
+ **.NET:** Skilled in ASP.NET MVC, and client-side web development. Worked on 5+
+    projects for SQL database design.
+
+  **JavaScript:** Designed and
+    developed User Interface using HTML5, CSS, and JavaScript Created sites using
+    various Content Management Systems, and theming semantically with HTML,
+    CSS and adding interactivity with JavaScript and libraries like jQuery.
+
+  Strong knowledge of **HTML**, **CSS**, **Bootstrap**, **MYSQL**
+
+
+## About me
+
+* Human Languages:
+
+     * Russian  (native speaker)
+     * English
+
+* Soft skills:
+
+     * Problem Solving
+     * Critical Thinking
+     * Communication
