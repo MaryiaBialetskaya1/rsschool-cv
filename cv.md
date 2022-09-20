@@ -24,3 +24,26 @@ https://t.me/maryiabialetskaya
 
 2021-2022
    **Certificate, HTML5/CSS3** - CanSheCode Inc (Cleveland)
+
+
+## Experience
+
+**Freelance Web Developer**
+
+Eye-popping web-developer with a passion metrics and beating former
+"Best-yets" :
+
+* Worked in a team to build an e-commerce web app
+
+* Designed a customer web form for a local photographer's office
+
+* Created a website for a local animal shelter
+
+## Technical Experience
+
+Programming Languages:
+
+
+  **Java:** Java Developer with 2+ years of experience in designing,
+    developing and delivering user-centric software applications using
+    Java/ J2EE technologies.
